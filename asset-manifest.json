@@ -1,15 +1,11 @@
 {
-  "main.css": "static/css/main.fa796ce4.css",
-  "main.css.map": "static/css/main.fa796ce4.css.map",
-  "main.js": "static/js/main.19f00332.js",
-  "main.js.map": "static/js/main.19f00332.js.map",
+  "main.css": "static/css/main.e95553da.css",
+  "main.css.map": "static/css/main.e95553da.css.map",
+  "main.js": "static/js/main.8eab79f0.js",
+  "main.js.map": "static/js/main.8eab79f0.js.map",
   "static\\media\\AdminPanel.svg": "static/media/AdminPanel.b0a9988c.svg",
   "static\\media\\AdminPanelText.svg": "static/media/AdminPanelText.77647a4d.svg",
   "static\\media\\Loading.svg": "static/media/Loading.18207d37.svg",
-  "static\\media\\image1.jpg": "static/media/image1.bb03c954.jpg",
-  "static\\media\\image2.jpg": "static/media/image2.8672a606.jpg",
-  "static\\media\\image3.jpg": "static/media/image3.d59b8214.jpg",
-  "static\\media\\image4.jpg": "static/media/image4.d4a4930b.jpg",
   "static\\media\\image5.png": "static/media/image5.bd927334.png",
   "static\\media\\noProducts.png": "static/media/noProducts.79c0ea86.png"
 }
