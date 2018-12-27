@@ -1,14 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-This project is made by aKaradzhov97 with ReactJS.
-
+This project is made by aKaradzhov97 with ReactJS.<br>
+<b>First off - Live demo:</b><br>
+<https://akaradzhov97.github.io/TireMania>
 <pre>
-<b><i>TIRE MANIA 2018 v. 1.0.7</b></i>
+<b><i>TIRE MANIA 2018 v. 1.0.9</b></i>
 So, basically this project is about selling car tires.
-This project uses a little bit of jQuery, SVG, Localstorage and Sessionstorage.
+This project uses SVG, Localstorage and Sessionstorage.
 
 
 <b>1. Unregistered users (Guests)</b>
-Unregistered users can see only the home page, login page and register page.
+Unregistered users can access only the home page, login page and register page.
 They have no access to Catalog.
 
 <b>2. Registered users</b>
@@ -34,18 +35,14 @@ Basically Admin can do almost everything in this project.
 -delete other user
 -change other user details
 
-<b>4. Slideshow</b>
-There is slideshow using jQuery in the project.
-It is suited in Home page.
-
-<b>5. Notifications</b>
+<b>4. Notifications</b>
 There is notifications for almost everything
 in the project, including:
 -Loading notifications/screens
 -Success notifications
 -Error notifications
 
-<b>6. Input validation & other validation</b>
+<b>5. Input validation & other validation</b>
 Input validation is included for:
 -Login
 -Register
