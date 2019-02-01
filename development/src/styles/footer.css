@@ -1,0 +1,62 @@
+.site-footer {
+    background: #0f325a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    padding: 0.75rem 0;
+    margin-top: 2rem;
+}
+
+.site-footer a {
+    text-decoration: none;
+    color: lightcyan;
+}
+
+.site-footer section {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.site-footer section:last-child {
+    padding-top: 0;
+}
+
+.site-footer section:last-child span {
+    margin-right: 0.5rem
+}
+
+.site-footer section:last-child a {
+    margin: 0.4rem;
+    padding: 0.3rem;
+    transition: 0.2s ease-in;
+    transform: scale(1);
+}
+
+.site-footer section:last-child a:last-child {
+    margin-right: 0;
+}
+
+.site-footer section:last-child a.fa-facebook-f:hover {
+    transform: scale(1.35);
+}
+
+.site-footer section:last-child a.fa-twitter:hover {
+    transform: scale(1.35);
+}
+
+.site-footer section:last-child a.fa-linkedin-in:hover {
+    transform: scale(1.35);
+}
+
+.site-footer section:last-child a.fa-google-plus-g:hover {
+    transform: scale(1.35);
+}
+
+.dev-credits {
+    text-shadow: 0 0 15px lightcyan;
+    text-decoration: none;
+}

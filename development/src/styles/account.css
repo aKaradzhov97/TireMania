@@ -1,0 +1,49 @@
+/* Account sections */
+.container.account,
+.container.panel {
+    flex-basis: 55%;
+    max-width: 35rem;
+}
+
+/* Account section - Users */
+.container.account .additional-info {
+    font-size: 0.75rem;
+}
+
+/* Account section - Admins */
+.container.panel {
+    text-align: center;
+}
+
+.container.panel .panel-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container.panel .panel-link {
+    text-decoration: none;
+    margin: 0.5rem;
+    border: 1px solid #fff;
+    padding: 0.45rem 1.35rem;
+    transition: all .2s ease-in-out;
+    color: #fff;
+}
+
+.container.panel .panel-link:focus,
+.container.panel .panel-link:hover {
+    background: #00bbbb;
+    border-color: #00bbbb;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.container.panel .svg-text-panel {
+    display: none;
+}
+
+@media screen and (max-width: 220px){
+    .container.panel .svg-gear-panel {
+        width: 60%;
+    }
+}

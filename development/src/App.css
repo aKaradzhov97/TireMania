@@ -1,0 +1,17 @@
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+@import './styles/reset.css';
+@import './styles/typography.css';
+@import './styles/notifications.css';
+@import './styles/forms.css';
+@import './styles/tables.css';
+@import './styles/main.css';
+@import './styles/navigation.css';
+@import './styles/footer.css';
+
+@import './styles/home.css';
+@import './styles/account.css';
+@import './styles/catalog.css';
+@import './styles/details.css';
+@import './styles/cart.css';
+@import './styles/orders.css';

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+.App main {
+    flex: 1;
+}
+
+main {
+    background: #0f325a;
+    width: 60rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+@media screen and (max-width: 960px) {
+    main {
+        width: 100%;
+    }
+}
+
+.section-title {
+    position: absolute;
+    top: 0;
+}
+
+.section-title .title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 1.75rem;
+    color: #ffffff;
+}
+
+.container {
+    margin-top: 5rem;
+    max-width: 20rem;
+    flex: 0 0 33%;
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        flex: 0 0 66%;
+    }
+
+    .section-title .title {
+        font-size: 1.3rem;
+    }
+}
+
+/* UNAUTHORIZED PAGE */
+
+.unauthorized-section {
+    margin-top: 5rem;
+    padding: 1rem;
+}
+
+.unauthorized-inner {
+    color: white;
+    text-align: center;
+}
+
+.unauthorized-section .body-text {
+    letter-spacing: 3px;
+}
+
+.unauthorized-section img {
+    width: 12rem;
+    padding: 1rem;
+}

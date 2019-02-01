@@ -1,0 +1,89 @@
+.form {
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.label {
+    position: relative;
+}
+
+.label i {
+    position: absolute;
+    top: 1.2rem;
+    left: 0.4rem;
+}
+
+.label input {
+    border: none;
+    box-shadow: none;
+    background: none;
+    outline: none;
+    color: #fff;
+    margin: 0.75rem 0;
+    font: 0.9rem 'Open Sans', sans-serif;
+    border-bottom: 1px solid white;
+}
+
+.label input:not([type="submit"]) {
+    padding: 0.3rem 0.3rem 0.3rem 1.75rem;
+    width: 100%;
+}
+
+.label input[type="submit"],
+.label input[type="reset"] {
+    border: 1px solid white;
+    padding: 0.45rem 1.35rem;
+    transition: all .2s ease-in-out;
+}
+
+.label input:not([type="submit"]):focus {
+    border-color: #00bbbb;
+}
+
+.label input:not([type="submit"]):focus + i {
+    color: #00bbbb;
+}
+
+.label input[type="submit"]:focus,
+.label input[type="submit"]:hover{
+    background: #00bbbb;
+    border-color: #00bbbb;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.label input[type="reset"]:focus,
+.label input[type="reset"]:hover {
+    background: #FF0000;
+    border-color: #FF0000;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.label select {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    color: #ffffff;
+    padding: 0.3rem 0.3rem 0.3rem 1.75rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    margin: 0.75rem 0;
+    font: 0.9rem 'Open Sans', sans-serif;
+}
+
+.label select:focus {
+    border-color: #00bbbb;
+}
+
+.label select:focus + i {
+    color: #00bbbb;
+}
+
+.label select option {
+    background: #0f325a;
+}

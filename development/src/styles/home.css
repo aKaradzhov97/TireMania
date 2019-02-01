@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+.home {
+    display: block;
+    width: auto;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+}
+
+.home .site-title,
+.home .site-desc {
+    font-family: "Orbitron", sans-serif;
+}
+
+.home .site-title {
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+    padding: 0;
+}
+
+.home .site-desc {
+    letter-spacing: 0.25rem;
+}
+
+.catalog-link {
+    color: #fff;
+    text-shadow: 0 0 15px rgba(255, 0, 185, 1);
+}
+
+#bg-img {
+    background: url('../images/slideshow/image5.jpg');
+    background-size: cover;
+    background-position-y: center;
+    padding: 13rem;
+}
+
+@media screen and (max-width: 600px){
+    #bg-img {
+        padding: 8rem;
+    }
+}

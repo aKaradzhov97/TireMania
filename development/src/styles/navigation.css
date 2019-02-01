@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans+Condensed:300');
+
+header {
+    margin-bottom: 2rem;
+}
+
+.wrapper {
+    background: #0f325a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+nav.main > ul {
+    padding: 0.5rem;
+    margin: 0;
+    display: flex;
+}
+
+nav.main ul li {
+    display: block;
+    list-style: none outside;
+    position: relative;
+}
+
+nav.main ul li a {
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+#main-nav-toggle {
+    display: none;
+}
+
+#toggle {
+    padding: 0.5rem;
+    color: #FFF;
+    font-size: 1.5rem;
+}
+
+#toggle:hover {
+    cursor: pointer;
+}
+
+#times-icon {
+    display: none;
+}
+
+/* Menu media queries */
+
+@media screen and (max-width: 750px){
+    nav.main {
+        display: none;
+    }
+
+    nav.main > ul {
+        display: block;
+    }
+
+    nav.main ul li a {
+        text-align: center;
+    }
+
+    nav.main ul li a:hover {
+        background: #FFFFFF;
+        color: #0f325a;
+    }
+
+    #main-nav-toggle:checked + .wrapper nav.main {
+        display: block;
+        flex: 1 0 100%;
+    }
+
+    #main-nav-toggle:checked + .wrapper #toggle .fa-times {
+        display: block;
+    }
+
+    #main-nav-toggle:checked + .wrapper #toggle .fa-bars {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 751px){
+    #toggle {
+        display: none;
+    }
+}
+
+/* Responsive MQ for extra small devices */
+
+@media screen and (max-width: 350px) {
+    .wrapper {
+        padding: 0.75rem 1.25rem;
+    }
+
+    .site-logo {
+        width: 13rem;
+    }
+}
+
+@media screen and (max-width: 275px) {
+    header {
+        font-size: 10px;
+    }
+
+    .wrapper {
+        padding: 0.5rem 0.75rem;
+    }
+
+    .site-logo {
+        width: 10rem;
+    }
+}

@@ -1,0 +1,29 @@
+.order-actions {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.order-actions .submit-order-link,
+.order-actions .delete-order-link {
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    padding: 0.15rem 1rem;
+    background: transparent;
+    transition: 0.2s linear;
+}
+
+.order-actions .submit-order-link {
+    color: blue;
+}
+
+.order-actions .delete-order-link {
+    color: red;
+}
+
+.order-actions .submit-order-link:hover,
+.order-actions .delete-order-link:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+}
